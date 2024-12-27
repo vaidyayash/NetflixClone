@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto', "poppins", "baloo bhai 2", serif;
+}
+
+body{
+    background-color: black;
+}
+
+.main{
+    height: 71vh;
+    background-image: url("bg.jpg");
+    position: relative;
+}
+
+
+.main .box{
+    height: 71vh;
+    width: 100%;
+    opacity: 0.67;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav img{
+    width: 120px;
+    margin-top: 2vh;
+    position: relative;
+    z-index: 1;
+}
+
+nav button{
+    margin-top: 3vh;
+    position: relative;
+    z-index: 1;
+}
+
+.buttonOne{
+    width: 70px;
+    height: 25px;
+    background-color: inherit;
+    color: white;
+    border: 1px solid grey;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.buttonOne span{
+    margin-left: 5px;
+    color: white;
+}
+
+.buttonTwo{
+    width: 60px;
+    height: 25px;
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.main .box2{
+    position: relative;
+    text-align: center;
+    margin-top: 15vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main .box2 div{
+    color: white;
+}
+
+.main .box2 > :nth-child(1){
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.main .box2 > :nth-child(2){
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 1vh;
+}
+
+.main .box2 > :nth-child(3){
+    font-size: 13px;
+    font-weight: 200;
+    margin: 2vh;
+}
+
+.seperation{
+    height: 5px;
+    background-color: rgb(57, 57, 57);
+}
+
+.main input{
+    width: 310px;
+    height: 33px;
+    padding-left: 11px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 0.5px solid white;
+    color: white;
+    border-radius: 3px;
+}
+
+.main .buttonThree{
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    width: 105px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 3px;
+    position: relative;
+    top: 1px;
+}
+
+.buttonThree span{
+    position:relative;
+    left: 3px;
+    color: white;
+}
+
+.first{
+    display: flex;
+    max-width: 70vw;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    color: white;
+}
+
+.first > :nth-child(1) > :nth-child(1){
+    font-size: xx-large;
+    font-weight: 900;
+    margin-bottom: 2vh;
+}
+
+
+.first > :nth-child(1) > :nth-child(2){
+    font-size: medium;
+    font-weight: 200;
+}
+
+.first .secImg, .third .secImg{
+    position: relative;
+}
+
+.first .secImg img{
+    position: relative;
+    width: 432px;
+    z-index: 1;
+}
+
+ .first .secImg video{
+    position: absolute;
+    width: 315px;
+    top: 67px;
+    right: 61px;
+}
+
+.second{
+    display: flex;
+    max-width: 80vw;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    margin-bottom: 5vh;
+}
+
+.second > :nth-child(1) img{
+    width: 455px;
+}
+
+.second > :nth-child(2) > :nth-child(1){
+    font-size: xx-large;
+    font-weight: 900;
+    margin-bottom: 2vh;
+}
+
+.second > :nth-child(2) > :nth-child(2){
+    font-size: medium;
+    font-weight: 200;
+}
+
+.third{
+    display: flex;
+    max-width: 70vw;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    color: white;
+}
+
+.third > :nth-child(1) > :nth-child(1){
+    font-size: xx-large;
+    font-weight: 900;
+    margin-bottom: 2vh;
+}
+
+.third > :nth-child(1) > :nth-child(2){
+    font-size: medium;
+    font-weight: 200;
+}
+
+.third .secImg img{
+    position: relative;
+    width: 432px;
+    z-index: 1;
+}
+
+.third .secImg video{
+    position: absolute;
+    width: 365px;
+    top: 56px;
+    right: 57px;
+}
+
+.faq{
+    color: white;
+}
+
+.faq h1{
+    text-align: center;
+    font-size: 45px;
+    margin-top: 4vh;
+    margin-bottom: 1vh;
+}
+
+
+.faq > :nth-child(2) > div{
+    margin: auto;
+    display: flex;
+    width: 60vw;
+    height: 9vh;
+    margin-bottom: 1vh;
+    background-color: rgb(50, 50, 50);
+    justify-content: space-between;
+    cursor: pointer;
+    
+}
+
+.faq > :nth-child(2) :hover{
+    background-color:rgb(91, 91, 91);
+}
+
+.faq > :nth-child(2) > div > :nth-child(1){
+    margin-left: 1vw;
+    margin-top: 3vh;
+}
+
+.faq > :nth-child(2) > div > :nth-child(2){
+    margin-right: 1vw;
+    margin-top: 2vh;
+    font-size: 30px;
+}
+
+.fourth{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    font-size: 15px;
+}
+
+.fourth input{
+    width: 310px;
+    height: 33px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 0.5px solid white;
+    color: white;
+    border-radius: 3px;
+    padding-left: 12px;
+}
+
+.fourth .buttonThree{
+    margin-top: 3vh;
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    width: 105px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 3px;
+    position: relative;
+    top: 1px;
+}
+
+footer .questions{
+    max-width: 60vw;
+    color:grey;
+    margin: auto;
+    font-size: 10px;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+}
+
+footer .questions span{
+    text-decoration: underline;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 60vw;
+    margin: auto;
+    column-gap: 10vw;
+    font-size: 10px;
+}
+
+.footer a{
+    color: grey;
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.footerButton{
+    margin-left: 19.5vw;
+    margin-top: 3vh;
+}
+
+.end{
+    margin-left: 19.5vw;
+    margin-top: 3vh;
+    font-size: 10px;
+    color: grey;
+}
+
+/* MEDIA QUERIES */
+
+
+@media only screen and (max-width:1200px){
+    .first, .third {
+        margin-top: 4vh;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .second{
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .buttonThree{
+        margin-top: 2vh;
+        margin-bottom: 2vh;    
+    }
+
+    .first .secImg img{
+    width: 272px;
+    }
+
+    .first .secImg video{
+        width: 198px;
+        right: 38px;
+        top: 43px;
+    }
+
+    .second > :nth-child(1) img{
+        width: 300px;
+    }
+
+    .third .secImg img{
+    width: 272px;
+    }
+
+    .third .secImg video{
+        width: 225px;
+        right: 38px;
+        top: 35px;
+    }
+
+    .faq h1{
+        font-size: 25px;
+    }
+
+    .faq .questions{
+        font-size: 13px;
+    }
+
+    .footer{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .main .box2 > :nth-child(1) {
+        font-size: 18px;
+        padding: 2vw;
+    }
+    .main .box2 > :nth-child(2){
+        font-size: 15px;
+        font-weight: 200;
+        margin-top: 1vh;
+        padding: 2vw;
+    }
+    .main .box2 > :nth-child(3){
+        font-size: 10px;
+        padding: 2vw;
+    }
+
+    .first > :nth-child(1) > :nth-child(1){
+        font-size: 18px
+    }
+
+    .second > :nth-child(2) > :nth-child(1){
+        font-size: 18px;
+    }
+
+    .third > :nth-child(1) > :nth-child(1){
+        font-size: 18px;
+    }
+
+    .faq h1{
+        font-size: 18px;
+    }
+}
+
